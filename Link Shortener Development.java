@@ -56,17 +56,13 @@ public class LinkShortener {
                     System.out.print("Enter the long URL: ");
                     String longUrl = scanner.nextLine();
                     String shortUrl = linkShortener.shortenUrl(longUrl);
-                    System.out.println("------------------------------");
                     System.out.println("Shortened URL: " + shortUrl);
-                    System.out.println("------------------------------");
                     break;
                 case 2:
                     System.out.print("Enter the short URL: ");
                     String inputShortUrl = scanner.nextLine();
                     String expandedUrl = linkShortener.expandUrl(inputShortUrl);
-                    System.out.println("------------------------------");
                     System.out.println("Expanded URL: " + expandedUrl);
-                    System.out.println("------------------------------");
                     break;
                 case 3:
                     System.out.println("Exiting the program. Goodbye!");
